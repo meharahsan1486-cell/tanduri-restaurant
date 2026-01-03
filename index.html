@@ -5,22 +5,22 @@
     <title>Tanduri Restaurant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body { margin:0; font-family: Arial, sans-serif; background-color: #fff8f0; }
-        header { background: #8b0000; color: white; padding: 20px; text-align: center; }
-        header img { height: 60px; display:block; margin: 0 auto 10px; border-radius: 50%; }
+        body { margin: 0; font-family: Arial, sans-serif; background-color: #fff8f0; }
+        header { background: #b31b1b; color: white; padding: 20px; text-align: center; }
+        header img { height: 70px; display: block; margin: 0 auto 10px; border-radius: 50%; }
         nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
         section { padding: 40px; text-align: center; }
-        .menu { background: #ffe4c4; display:flex; justify-content:center; flex-wrap:wrap; gap:20px; }
-        .menu div { text-align:center; }
-        .menu img { width:200px; height:150px; object-fit:cover; border-radius:10px; }
-        footer { background: #8b0000; color: white; text-align: center; padding: 15px; }
-        .btn { background: #8b0000; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .menu-container { background: #ffe4c4; padding: 30px; border-radius: 8px; }
+        .menu-img { width: 300px; height: auto; border-radius: 10px; }
+        .menu-list { text-align: left; max-width: 600px; margin: 20px auto; font-size: 18px; }
+        .menu-list p { margin: 8px 0; }
+        .btn { background: #b31b1b; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-size: 18px; }
+        footer { background: #b31b1b; color: white; text-align: center; padding: 15px; }
     </style>
 </head>
 <body>
 
 <header>
-    <!-- Logo -->
     <img src="logo.png" alt="Tanduri Restaurant Logo">
     <h1>🔥 Tanduri Restaurant 🔥</h1>
     <nav>
@@ -34,46 +34,46 @@
 <section>
     <h2>Welcome to Tanduri Restaurant</h2>
     <p>Authentic taste, rich spices, and unforgettable flavors.</p>
-    <!-- WhatsApp button -->
-    <a class="btn" href="https://wa.me/923000000000" target="_blank">Order on WhatsApp</a>
+    <a class="btn" href="https://wa.me/9233336674903" target="_blank">Order on WhatsApp</a>
 </section>
 
-<section id="menu" class="menu">
-    <!-- Menu Images -->
-    <div>
-        <img src="images/dish1.jpg" alt="Chicken Tandoori">
-        <p>Chicken Tandoori</p>
-    </div>
-    <div>
-        <img src="images/dish2.jpg" alt="Beef Karahi">
-        <p>Beef Karahi</p>
-    </div>
-    <div>
-        <img src="images/dish3.jpg" alt="Butter Chicken">
-        <p>Butter Chicken</p>
-    </div>
-    <div>
-        <img src="images/dish4.jpg" alt="Garlic Naan">
-        <p>Garlic Naan</p>
+<section id="menu" class="menu-container">
+    <h2>Our Menu</h2>
+    <!-- Your menu image -->
+    <img class="menu-img" src="dish1.png" alt="Our Menu Image">
+
+    <!-- List of dishes with prices -->
+    <div class="menu-list">
+        <p>🍗 Chicken Tandoori — ₨1,250</p>
+        <p>🥘 Beef Karahi (Serves 2) — ₨2,300</p>
+        <p>🍛 Chicken Biryani — ₨900</p>
+        <p>🥖 Garlic Naan — ₨180</p>
+        <p>🍢 Tandoori Chicken Tikka — ₨1,100</p>
+        <p>🍢 Seekh Kabab (6 pcs) — ₨700</p>
+        <p>🍢 Reshmi Kabab (4 pcs) — ₨850</p>
+        <p>🔥 Chicken Handi (Boneless) — ₨1,750</p>
+        <p>🍚 Special Tandoori Rice — ₨950</p>
     </div>
 </section>
 
 <section id="about">
     <h2>About Us</h2>
-    <p>Tanduri Restaurant offers authentic, flavorful dishes made fresh daily. Your taste adventure starts here!</p>
+    <p>Tanduri Restaurant offers traditional Pakistani BBQ, karahi, biryani, and tandoori delights — fresh daily, cooked with care.</p>
 </section>
 
 <section id="contact">
     <h2>Find Us</h2>
-    <!-- Google Map -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <p>📞 Call us: 0300-0000000</p>
-    <a class="btn" href="https://wa.me/923000000000" target="_blank">Order on WhatsApp</a>
+    <!-- Replace YOUR_EMBED_URL below with your real Google Maps embed -->
+    <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p>📍 Faisalabad Canal Road near Layallpur</p>
+    <p>📞 Call / WhatsApp: 03336674903</p>
+    <a class="btn" href="https://wa.me/9233336674903" target="_blank">Order on WhatsApp</a>
 </section>
 
 <footer>
-    <p>📍 Tanduri Restaurant | 📞 0300-0000000</p>
+    <p>© 2026 Tanduri Restaurant — All Rights Reserved</p>
 </footer>
 
 </body>
 </html>
+
