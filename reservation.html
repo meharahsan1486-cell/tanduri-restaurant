@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book a Table — Tanduri Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 18px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        label {
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: block;
+        }
+        .btn-submit {
+            background: #2c3e50;
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .btn-submit:hover {
+            background: #1a242f;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Reserve Your Table</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Book Table</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Online Table Booking Form</h2>
+
+    <form>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your name..." required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="0333XXXXXXX" required>
+
+        <label for="date">Reservation Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Reservation Time</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests">Number of Guests</label>
+        <select id="guests" name="guests" required>
+            <option value="1">1 Person</option>
+            <option value="2">2 People</option>
+            <option value="3">3 People</option>
+            <option value="4">4 People</option>
+            <option value="5">5 People</option>
+            <option value="6">6+ People</option>
+        </select>
+
+        <label for="requests">Special Requests (optional)</label>
+        <textarea id="requests" name="requests" rows="4" placeholder="Any special requests..."></textarea>
+
+        <button class="btn-submit" type="submit">Submit Reservation</button>
+    </form>
+</div>
+
+<footer>
+    📞 WhatsApp: 03336674903 | 📍 Faisalabad Canal Road near Layallpur
+</footer>
+
+</body>
+</html>
